@@ -1,4 +1,10 @@
-In this code i have tried to make a algorithm to solve systems of ecuations using the LU method, manually, the final version asks the costumer what numbers he has
-the first version has the matrix already set up. I understand there might be some problems if the costumers enters a matrix with 0 on it in some places. Im not using
-pivot on this method. Even tought there were faster ideas to solve this, i find this to be more enjoyable and code it all by hand using basic operations to solve the 
-sistems. This only uses console, glad to see you checking my repository. Will continue to work on projects. Take care. 30/March/2025
+This script solves systems of linear equations using LU decomposition without pivoting, coded manually using basic operations.
+The final version allows the user to input their own matrix and result vector through the console. The initial version used a predefined matrix.
+
+⚠️ Please note: since this implementation does not use pivoting, it may fail or behave unexpectedly if the input matrix has zeros in certain positions.
+
+I chose to implement this manually rather than using built-in LU solvers, as I find it more enjoyable and educational to understand the process step by step.
+
+This tool is fully console-based. Thanks for checking out my repository — I’ll keep working on more projects.
+Take care.
+– Alejandro Carrillo, 30/March/2025
